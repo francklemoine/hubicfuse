@@ -21,11 +21,11 @@ You can grab that image or build it yourself from Github.
 
 - arm (raspberry PI)
   - [GitHub](https://github.com/francklemoine/rpi-hubicfuse)
-  - [Docker Hub](https://hub.docker.com/flem/rpi-hubicfuse)
+  - [Docker Hub](https://hub.docker.com/r/flem/rpi-hubicfuse)
 
 - x86_64
   - [GitHub](https://github.com/francklemoine/hubicfuse)
-  - [Docker Hub](https://hub.docker.com/flem/hubicfuse)
+  - [Docker Hub](https://hub.docker.com/r/flem/hubicfuse)
 
 
 ## Usage
