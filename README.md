@@ -117,8 +117,3 @@ docker run --rm \
            flem/hubicfuse --backup --id XXXX --secret XXXX --token XXXX --hubic_dir default/path/to/backup \
                           --crypt --passphrase "XXXX"
 ```
-
-
-
-
-

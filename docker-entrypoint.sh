@@ -64,7 +64,7 @@ function usage() {
 	    --crypt          : crypt backup/restore
 	    --passphrase arg : passphrase
 	    --mode arg       : full/incr (default=full)
-	    --retention arg  : delete backups older than this time (in months) (default=2) 
+	    --retention arg  : delete backups older than this time (in months) (default=2)
 
 	EOF
 	exit 0
@@ -108,7 +108,7 @@ function get_refresh_token() {
 	## client_id (the app's id): XXXXXXXXXX
 	## client_secret (the app's secret): XXXXXXXXXX
 	## redirect_uri (declared at app's creation): XXXXXXXXXX
-	## 
+	##
 	## For the scope -what you authorize your app to do-, enter characters as suggested
 	## in parenthesis, or just hit return if you don't need the item authorized.
 	## Get account usage (r): r
@@ -116,13 +116,13 @@ function get_refresh_token() {
 	## Get OpenStack credentials, eg. access to your files (r): r
 	## Send activation email (w): w
 	## Add new/Get/Delete published link (wrd): wrd
-	## 
+	##
 	## user_login (the e-mail you used to subscribe): XXXXXXXXXX
 	## user_pwd (your hubiC's main password): XXXXXXXXXX
-	## 
+	##
 	## Success!
-	## 
-	## 
+	##
+	##
 	## # Here is what your app needs to connect to hubiC:
 	## client_id=XXXXXXXXXX
 	## client_secret=XXXXXXXXXX
@@ -236,4 +236,3 @@ elif ${DO_RESTORE}; then
 	hubic_restore
 fi
 echo "end $(date)"
-
